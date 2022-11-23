@@ -15,6 +15,5 @@ def FizzBuzz(start, finish):
 
 start=40
 finish=45
-def FizzBuzz(start, finish):
-    v = ['buzz', 41, 'fizz', 43, 44, 'fizzbuzz']
-    return(v)
+
+FizzBuzz(start,finish)

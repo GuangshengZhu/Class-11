@@ -11,5 +11,3 @@ couponRate = .04
 
 getBondPrice_Z(face,couponRate,times,yc)
 
-def getBondPrice_Z(face, couponRate, times, yc):
-    return(1996533)

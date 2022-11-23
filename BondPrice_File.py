@@ -9,9 +9,11 @@ def getBondPrice(y, face, couponRate, m, ppy=1):
     bondPrice = (pvsum*couponRate+(pv)**(-m))*face
     return(bondPrice)
 
-def getBondPrice(y, face, couponRate, m, ppy=1):
-    if ppy == 1:
-        x = 2170604
-    if ppy == 2:
-        x = 2171686
-    return(x)
+y = 0.03
+face = 2000000
+couponRate = 0.04
+m = 10
+ppy = 1
+ppy = 2
+
+getBondPrice(y,face,couponRate,m,ppy)
